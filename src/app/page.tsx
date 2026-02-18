@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'INFI EXPORT' }],
   creator: 'INFI EXPORT',
   publisher: 'INFI EXPORT',
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   alternates: {
     canonical: '/',
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Leading Exporter in India | INFI EXPORT',
     description:
       'INFI EXPORT is a leading exporter in India delivering high-quality products to global markets with trusted logistics, strict quality standards, and long-term international partnerships.',
-    url: 'https://www.infiexport.com',
+    url: 'https://infiexport.com',
     siteName: 'INFI EXPORT',
     locale: 'en_IN',
     type: 'website',
@@ -43,8 +43,8 @@ export default function Home() {
               {
                 '@type': 'Organization',
                 name: 'INFI EXPORT',
-                url: 'https://www.infiexport.com',
-                logo: 'https://www.infiexport.com/infiexport-logo.png',
+                url: 'https://infiexport.com',
+                logo: 'https://infiexport.com/infiexport-logo.png',
                 address: {
                   '@type': 'PostalAddress',
                   addressCountry: 'IN',
@@ -55,7 +55,7 @@ export default function Home() {
               {
                 '@type': 'WebSite',
                 name: 'INFI EXPORT',
-                url: 'https://www.infiexport.com',
+                url: 'https://infiexport.com',
               },
             ],
           }),

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block system & internal routes
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap Location
+Sitemap: https://infiexport.com/sitemap.xml

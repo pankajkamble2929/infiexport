@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title:
     'Industrial & Automotive Grease Exporter from India | Bulk Lubricant Supplier | INFI EXPORT',
   description:
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
     title: 'Industrial & Automotive Grease Exporter | INFI EXPORT',
     description:
       'Bulk exporter of premium industrial and automotive greases including lithium, calcium, and multipurpose types. Reliable international supply with quality assurance.',
-    url: 'https://www.infiexport.com/lubricants/grease',
+    url: 'https://infiexport.com/lubricants/grease',
     siteName: 'INFI EXPORT',
     type: 'website',
     images: [
       {
-        url: 'https://www.infiexport.com/images/lubricants/grease-hero.jpg',
+        url: 'https://infiexport.com/images/lubricants/grease-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Industrial and Automotive Grease Export from India',
@@ -65,11 +65,11 @@ export default function GreasePage() {
             name: 'Industrial & Automotive Grease Exporter',
             description:
               'High-performance industrial and automotive greases exported globally in bulk packaging, including lithium, calcium, and multipurpose greases.',
-            url: 'https://www.infiexport.com/lubricants/grease',
+            url: 'https://infiexport.com/lubricants/grease',
             mainEntity: {
               '@type': 'Organization',
               name: 'INFI EXPORT',
-              url: 'https://www.infiexport.com',
+              url: 'https://infiexport.com',
             },
           }),
         }}

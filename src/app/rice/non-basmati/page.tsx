@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title:
     'Premium Indian Non-Basmati Rice Exporter | Bulk Non-Basmati Supplier | INFI EXPORT',
   description:
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     title: 'Premium Indian Non-Basmati Rice Exporter | INFI EXPORT',
     description:
       'Exporter and bulk supplier of premium Indian Non-Basmati rice varieties for international markets with assured quality and export-grade packaging.',
-    url: 'https://www.infiexport.com/rice/non-basmati',
+    url: 'https://infiexport.com/rice/non-basmati',
     siteName: 'INFI EXPORT',
     type: 'website',
     images: [
       {
-        url: 'https://www.infiexport.com/images/rice/non-basmati-hero.jpg',
+        url: 'https://infiexport.com/images/rice/non-basmati-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Premium Indian Non-Basmati Rice Export from India',
@@ -67,11 +67,11 @@ export default function NonBasmatiPage() {
             name: 'Indian Non-Basmati Rice Exporter',
             description:
               'High-quality Indian Non-Basmati rice exported worldwide including IR64, Sona Masoori, PR11 Parboiled, and Long Grain White varieties.',
-            url: 'https://www.infiexport.com/rice/non-basmati',
+            url: 'https://infiexport.com/rice/non-basmati',
             mainEntity: {
               '@type': 'Organization',
               name: 'INFI EXPORT',
-              url: 'https://www.infiexport.com',
+              url: 'https://infiexport.com',
             },
           }),
         }}

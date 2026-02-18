@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title:
     'Industrial Oil Exporter from India | Bulk Lubricants Supplier | INFI EXPORT',
   description:
@@ -38,12 +38,12 @@ export const metadata: Metadata = {
     title: 'Industrial Oil Exporter | INFI EXPORT',
     description:
       'Bulk exporter of industrial oils and lubricants including hydraulic, gear, and specialty oils with global shipping support and quality assurance.',
-    url: 'https://www.infiexport.com/lubricants/industrial-oil',
+    url: 'https://infiexport.com/lubricants/industrial-oil',
     siteName: 'INFI EXPORT',
     type: 'website',
     images: [
       {
-        url: 'https://www.infiexport.com/images/lubricants/industrial-oil-hero.jpg',
+        url: 'https://infiexport.com/images/lubricants/industrial-oil-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Industrial Oil Export from India',
@@ -65,11 +65,11 @@ export default function IndustrialOilPage() {
             name: 'Industrial Oil Exporter',
             description:
               'High-performance industrial oils and lubricants exported globally in bulk packaging including hydraulic oils, gear oils, and specialty industrial lubricants.',
-            url: 'https://www.infiexport.com/lubricants/industrial-oil',
+            url: 'https://infiexport.com/lubricants/industrial-oil',
             mainEntity: {
               '@type': 'Organization',
               name: 'INFI EXPORT',
-              url: 'https://www.infiexport.com',
+              url: 'https://infiexport.com',
             },
           }),
         }}

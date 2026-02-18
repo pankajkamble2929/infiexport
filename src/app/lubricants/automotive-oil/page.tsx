@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title:
     'Automotive Engine Oil Exporter from India | Bulk Motor Oil Supplier | INFI EXPORT',
   description:
@@ -39,12 +39,12 @@ export const metadata: Metadata = {
     title: 'Automotive Engine Oil Exporter | INFI EXPORT',
     description:
       'Bulk exporter of high-performance automotive engine oils and motor lubricants serving international markets with competitive pricing and quality assurance.',
-    url: 'https://www.infiexport.com/lubricants/automotive-oil',
+    url: 'https://infiexport.com/lubricants/automotive-oil',
     siteName: 'INFI EXPORT',
     type: 'website',
     images: [
       {
-        url: 'https://www.infiexport.com/images/lubricants/automotive-oil-hero.jpg',
+        url: 'https://infiexport.com/images/lubricants/automotive-oil-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Automotive Engine Oil Export from India',
@@ -66,11 +66,11 @@ export default function AutomotiveOilPage() {
             name: 'Automotive Engine Oil Exporter',
             description:
               'High-performance automotive engine oils and motor lubricants exported globally in bulk packaging.',
-            url: 'https://www.infiexport.com/lubricants/automotive-oil',
+            url: 'https://infiexport.com/lubricants/automotive-oil',
             mainEntity: {
               '@type': 'Organization',
               name: 'INFI EXPORT',
-              url: 'https://www.infiexport.com',
+              url: 'https://infiexport.com',
             },
           }),
         }}

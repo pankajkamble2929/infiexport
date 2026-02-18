@@ -24,7 +24,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title: 'Automotive & Industrial Lubricant Exporter from India | INFI EXPORT',
   description:
     'INFI EXPORT supplies premium automotive oils, industrial lubricants, and grease to global markets with international quality standards, bulk packaging, and reliable export logistics.',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: 'Automotive & Industrial Lubricant Exporter | INFI EXPORT',
     description:
       'Trusted exporter of high-performance automotive oils, industrial lubricants, and grease serving global markets.',
-    url: 'https://www.infiexport.com/lubricants/',
+    url: 'https://infiexport.com/lubricants/',
     siteName: 'INFI EXPORT',
     type: 'website',
   },
@@ -61,7 +61,7 @@ export default function LubricantsHome() {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'INFI EXPORT - Lubricant Exporter',
-            url: 'https://www.infiexport.com/lubricants/',
+            url: 'https://infiexport.com/lubricants/',
           }),
         }}
       />
@@ -73,8 +73,8 @@ export default function LubricantsHome() {
             '@context': 'https://schema.org',
             '@type': 'Corporation',
             name: 'INFI EXPORT - Lubricant Export Division',
-            url: 'https://www.infiexport.com/lubricants/',
-            logo: 'https://www.infiexport.com/infiexport-logo.png',
+            url: 'https://infiexport.com/lubricants/',
+            logo: 'https://infiexport.com/infiexport-logo.png',
           }),
         }}
       />

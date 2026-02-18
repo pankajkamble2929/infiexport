@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title: 'Premium Indian Rice Exporter from India | INFI EXPORT',
   description:
     'INFI EXPORT is a leading Indian rice exporter supplying premium Basmati and Non-Basmati rice worldwide with strict quality control, competitive pricing, and global shipping support.',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: 'Premium Indian Rice Exporter | INFI EXPORT',
     description:
       'Trusted exporter of premium quality Indian rice serving global markets with assured quality and competitive pricing.',
-    url: 'https://www.infiexport.com/rice/',
+    url: 'https://infiexport.com/rice/',
     siteName: 'INFI EXPORT',
     type: 'website',
   },
@@ -60,11 +60,11 @@ export default function RiceHome() {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'INFI EXPORT - Rice Exporter',
-            url: 'https://www.infiexport.com/rice/',
+            url: 'https://infiexport.com/rice/',
             potentialAction: {
               '@type': 'SearchAction',
               target:
-                'https://www.infiexport.com/search?q={search_term_string}',
+                'https://infiexport.com/search?q={search_term_string}',
               'query-input': 'required name=search_term_string',
             },
           }),
@@ -78,8 +78,8 @@ export default function RiceHome() {
             '@context': 'https://schema.org',
             '@type': 'Corporation',
             name: 'INFI EXPORT - Rice Exporter',
-            url: 'https://www.infiexport.com/rice/',
-            logo: 'https://www.infiexport.com/infiexport-logo.png',
+            url: 'https://infiexport.com/rice/',
+            logo: 'https://infiexport.com/infiexport-logo.png',
           }),
         }}
       />

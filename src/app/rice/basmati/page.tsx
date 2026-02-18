@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.infiexport.com'),
+  metadataBase: new URL('https://infiexport.com'),
   title:
     'Premium Indian Basmati Rice Exporter | Bulk Basmati Supplier | INFI EXPORT',
   description:
@@ -40,12 +40,12 @@ export const metadata: Metadata = {
     title: 'Premium Indian Basmati Rice Exporter | INFI EXPORT',
     description:
       'Exporter and bulk supplier of premium quality Indian Basmati rice serving international markets with assured quality and competitive pricing.',
-    url: 'https://www.infiexport.com/rice/basmati',
+    url: 'https://infiexport.com/rice/basmati',
     siteName: 'INFI EXPORT',
     type: 'website',
     images: [
       {
-        url: 'https://www.infiexport.com/images/rice/basmati-hero.jpg',
+        url: 'https://infiexport.com/images/rice/basmati-hero.jpg',
         width: 1200,
         height: 630,
         alt: 'Premium Indian Basmati Rice Export from India',
@@ -67,11 +67,11 @@ export default function BasmatiPage() {
             name: 'Indian Basmati Rice Exporter',
             description:
               'Premium quality Indian Basmati rice exported worldwide including multiple long grain varieties.',
-            url: 'https://www.infiexport.com/rice/basmati',
+            url: 'https://infiexport.com/rice/basmati',
             mainEntity: {
               '@type': 'Organization',
               name: 'INFI EXPORT',
-              url: 'https://www.infiexport.com',
+              url: 'https://infiexport.com',
             },
           }),
         }}
