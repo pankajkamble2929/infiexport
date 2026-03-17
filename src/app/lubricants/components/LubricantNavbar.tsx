@@ -30,42 +30,50 @@ export default function LubricantNavbar() {
           <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-700 tracking-wide">
             
             <Link
-              href="/lubricants"
+              href="/lubricants/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               HOME
             </Link>
 
             <Link
-              href="/lubricants/automotive-oil"
+              href="/lubricants/automotive-oil/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               AUTOMOTIVE OIL
             </Link>
 
             <Link
-              href="/lubricants/industrial-oil"
+              href="/lubricants/industrial-oil/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               INDUSTRIAL OIL
             </Link>
 
             <Link
-              href="/lubricants/grease"
+              href="/lubricants/grease/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               GREASE
             </Link>
 
             <Link
-              href="/lubricants/about"
+              href="/lubricants/about/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               ABOUT
             </Link>
 
             <Link
-              href="/lubricants/contact"
+              href="/lubricants/certifications/"
+              className="text-[#1A237E] hover:text-[#0D154F] transition"
+            >
+              CERTIFICATIONS
+            </Link>
+
+
+            <Link
+              href="/lubricants/contact/"
               className="text-[#1A237E] hover:text-[#0D154F] transition"
             >
               CONTACT
@@ -94,40 +102,47 @@ export default function LubricantNavbar() {
           <div className="md:hidden bg-white shadow-lg border-t">
             <div className="flex flex-col px-6 py-6 space-y-4 text-[#1A237E] font-semibold">
               
-              <Link href="/lubricants" onClick={() => setIsOpen(false)}>
+              <Link href="/lubricants/" onClick={() => setIsOpen(false)}>
                 Home
               </Link>
 
               <Link
-                href="/lubricants/automotive-oil"
+                href="/lubricants/automotive-oil/"
                 onClick={() => setIsOpen(false)}
               >
                 Automotive Oil
               </Link>
 
               <Link
-                href="/lubricants/industrial-oil"
+                href="/lubricants/industrial-oil/"
                 onClick={() => setIsOpen(false)}
               >
                 Industrial Oil
               </Link>
 
               <Link
-                href="/lubricants/grease"
+                href="/lubricants/grease/"
                 onClick={() => setIsOpen(false)}
               >
                 Grease
               </Link>
 
               <Link
-                href="/lubricants/about"
+                href="/lubricants/about/"
                 onClick={() => setIsOpen(false)}
               >
                 About
               </Link>
 
               <Link
-                href="/lubricants/contact"
+                href="/lubricants/certifications/"
+                onClick={() => setIsOpen(false)}
+              >
+                Certifications
+              </Link>
+
+              <Link
+                href="/lubricants/contact/"
                 onClick={() => setIsOpen(false)}
               >
                 Contact

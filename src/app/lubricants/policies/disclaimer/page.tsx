@@ -70,6 +70,38 @@ export default function DisclaimerPage() {
           </p>
         </div>
 
+        {/* Certification & Documentation Disclaimer */}
+        <div className="bg-white rounded-xl shadow-sm border p-8">
+          <div className="flex items-center gap-3 mb-4">
+            <AlertTriangle className="w-6 h-6 text-[#1A237E]" />
+            <h2 className="text-2xl font-semibold">
+              Certification & Documentation Disclaimer
+            </h2>
+          </div>
+
+          <p className="text-gray-700">
+            INFI EXPORT operates as an exporter and sourcing partner. Certain
+            certifications and technical documents displayed on this website,
+            including but not limited to MSDS, TDS, COA, ISO certifications, and
+            other compliance documents, may be issued by third-party
+            manufacturers or suppliers associated with the products.
+          </p>
+
+          <p className="text-gray-700 mt-4">
+            These documents are provided for general informational purposes to
+            demonstrate product quality, safety, and compliance standards.
+            Buyers are advised to verify all technical specifications,
+            certifications, and documentation prior to finalizing any commercial
+            transaction.
+          </p>
+
+          <p className="text-gray-700 mt-4">
+            Relevant documents will be shared based on the selected product
+            grade, application, and manufacturer at the time of inquiry or order
+            confirmation.
+          </p>
+        </div>
+
         {/* Limitation of Liability */}
         <div className="bg-white rounded-xl shadow-sm border p-8">
           <div className="flex items-center gap-3 mb-4">

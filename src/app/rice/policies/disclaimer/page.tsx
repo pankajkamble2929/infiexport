@@ -1,5 +1,12 @@
 import { Metadata } from 'next';
-import { AlertTriangle, Image, Package, Lock, Mail, Building2 } from 'lucide-react';
+import {
+  AlertTriangle,
+  Image,
+  Package,
+  Lock,
+  Mail,
+  Building2,
+} from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Disclaimer - INFI EXPORT | Rice & Agro Products Export',
@@ -18,9 +25,14 @@ export default function DisclaimerPage() {
             <h1 className="text-4xl font-bold">Disclaimer</h1>
           </div>
           <p className="text-lg text-green-100 max-w-3xl">
-            The content on INFI EXPORT’s website is provided for general information purposes related to rice and agro products exports. We aim for accuracy but cannot guarantee that all information is complete, current, or applicable to every situation.
+            The content on INFI EXPORT’s website is provided for general
+            information purposes related to rice and agro products exports. We
+            aim for accuracy but cannot guarantee that all information is
+            complete, current, or applicable to every situation.
           </p>
-          <p className="mt-4 text-sm text-green-100">Last Updated: February 2026</p>
+          <p className="mt-4 text-sm text-green-100">
+            Last Updated: February 2026
+          </p>
         </div>
       </section>
 
@@ -33,9 +45,10 @@ export default function DisclaimerPage() {
             <h2 className="text-2xl font-semibold">Representative Images</h2>
           </div>
           <p className="text-gray-700">
-            All images displayed on this website are for illustrative purposes only.
-            Actual products, packaging, color, and appearance may vary. Please
-            refer to official documentation or agreements for exact product details.
+            All images displayed on this website are for illustrative purposes
+            only. Actual products, packaging, color, and appearance may vary.
+            Please refer to official documentation or agreements for exact
+            product details.
           </p>
         </div>
 
@@ -43,10 +56,37 @@ export default function DisclaimerPage() {
         <div className="bg-white rounded-xl shadow-sm border p-8">
           <div className="flex items-center gap-3 mb-4">
             <Package className="w-6 h-6 text-emerald-600" />
-            <h2 className="text-2xl font-semibold">Product Information Accuracy</h2>
+            <h2 className="text-2xl font-semibold">
+              Product Information Accuracy
+            </h2>
           </div>
           <p className="text-gray-700">
-            While we strive to ensure the accuracy of product descriptions, specifications, and details, INFI EXPORT does not guarantee that all information is completely accurate or up-to-date. Buyers should verify all details before entering any commercial agreements.
+            While we strive to ensure the accuracy of product descriptions,
+            specifications, and details, INFI EXPORT does not guarantee that all
+            information is completely accurate or up-to-date. Buyers should
+            verify all details before entering any commercial agreements.
+          </p>
+        </div>
+
+        {/* Certification Disclaimer */}
+        <div className="bg-white rounded-xl shadow-sm border p-8">
+          <div className="flex items-center gap-3 mb-4">
+            <AlertTriangle className="w-6 h-6 text-emerald-600" />
+            <h2 className="text-2xl font-semibold">Certification Disclaimer</h2>
+          </div>
+          <p className="text-gray-700">
+            INFI EXPORT operates as an exporter and sourcing partner. Certain
+            certifications displayed on this website, including but not limited
+            to FSSAI, HACCP, ISO, and other quality or compliance documents, may
+            belong to third-party manufacturers or suppliers associated with the
+            products.
+          </p>
+
+          <p className="text-gray-700 mt-4">
+            These certifications are shared for informational purposes to
+            demonstrate product quality and compliance standards. Buyers are
+            advised to verify specific certifications and documentation at the
+            time of inquiry or before finalizing any commercial transaction.
           </p>
         </div>
 
@@ -57,10 +97,11 @@ export default function DisclaimerPage() {
             <h2 className="text-2xl font-semibold">Limitation of Liability</h2>
           </div>
           <p className="text-gray-700">
-            INFI EXPORT shall not be liable for any direct, indirect, incidental, or
-            consequential damages arising from the use of website information, images,
-            or export-related communications. All transactions are subject to separate
-            agreements and contractual obligations.
+            INFI EXPORT shall not be liable for any direct, indirect,
+            incidental, or consequential damages arising from the use of website
+            information, images, or export-related communications. All
+            transactions are subject to separate agreements and contractual
+            obligations.
           </p>
         </div>
 
@@ -71,9 +112,9 @@ export default function DisclaimerPage() {
             <h2 className="text-2xl font-semibold">Future Products</h2>
           </div>
           <p className="text-gray-700">
-            INFI EXPORT may expand its offerings to other agro products, fruits, or vegetables
-            in the future. This Disclaimer applies to all current and future products and
-            services.
+            INFI EXPORT may expand its offerings to other agro products, fruits,
+            or vegetables in the future. This Disclaimer applies to all current
+            and future products and services.
           </p>
         </div>
 
@@ -84,7 +125,8 @@ export default function DisclaimerPage() {
             <h2 className="text-2xl font-semibold">Contact Us</h2>
           </div>
           <p className="mb-4">
-            For questions regarding this Disclaimer or export services, please reach out:
+            For questions regarding this Disclaimer or export services, please
+            reach out:
           </p>
 
           <div className="space-y-2 text-sm">

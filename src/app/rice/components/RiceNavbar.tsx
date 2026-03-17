@@ -56,6 +56,13 @@ export default function RiceNavbar() {
           </Link>
 
           <Link
+            href="/rice/certifications/"
+            className="text-emerald-800 hover:text-[#2E7D32] transition"
+          >
+            CERTIFICATIONS
+          </Link>
+
+          <Link
             href="/rice/contact"
             className="text-emerald-800 hover:text-[#2E7D32] transition"
           >
@@ -88,19 +95,23 @@ export default function RiceNavbar() {
               Home
             </Link>
 
-            <Link href="/rice/basmati" onClick={() => setIsOpen(false)}>
+            <Link href="/rice/basmati/" onClick={() => setIsOpen(false)}>
               Basmati
             </Link>
 
-            <Link href="/rice/non-basmati" onClick={() => setIsOpen(false)}>
+            <Link href="/rice/non-basmati/" onClick={() => setIsOpen(false)}>
               Non-Basmati
             </Link>
 
-            <Link href="/rice/export-process" onClick={() => setIsOpen(false)}>
-              Export Process
+            <Link href="/rice/about/" onClick={() => setIsOpen(false)}>
+              About
             </Link>
 
-            <Link href="/rice/contact" onClick={() => setIsOpen(false)}>
+            <Link href="/rice/certifications/" onClick={() => setIsOpen(false)}>
+              Certifications
+            </Link>
+
+            <Link href="/rice/contact/" onClick={() => setIsOpen(false)}>
               Contact
             </Link>
 
