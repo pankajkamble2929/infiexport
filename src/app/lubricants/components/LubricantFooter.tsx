@@ -1,13 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-} from 'lucide-react';
+import { Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function LubricantFooter() {
   return (
@@ -30,10 +23,10 @@ export default function LubricantFooter() {
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-6">
-            {[Facebook, Instagram, Linkedin].map((Icon, i) => (
+            {[Linkedin].map((Icon, i) => (
               <a
                 key={i}
-                href="#"
+                href="https://www.linkedin.com/company/infi-export/"
                 className="w-9 h-9 flex items-center justify-center rounded-full bg-[#1A237E] hover:bg-[#0D154F] text-white transition"
               >
                 <Icon size={18} />
